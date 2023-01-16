@@ -8,7 +8,7 @@ import numpy as np
 face_classifier = cv2.CascadeClassifier('./haarcascade_frontalface_default.xml')
 classifier =load_model('./Emotion_Detection.h5')
 
-class_labels = ['Angry','Happy','Neutral','Sad','Surprise']
+class_labels = ['Bored','Happy','Neutral','Sad','Confused']
 
 cap = cv2.VideoCapture(0)
 
@@ -44,29 +44,3 @@ while True:
 
 cap.release()
 cv2.destroyAllWindows()
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
