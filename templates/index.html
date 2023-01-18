@@ -1,15 +1,31 @@
 <!DOCTYPE html>
 <html>
-  <body>
-    <div class="container">
-        <div class="row">
-            <div class="col-lg-8  offset-lg-2">
-                <h3 class="mt-5">Live Streaming</h3>
-                <img src="{{ url_for('video') }}" width="50%">
-            </div>
-        </div>
-    </div>
-    </body>
+<style>
+  body {
+    text-align: center;
+  }
 
+  h1 {
+    font-size: 4rem;
+    font-weight: 900;
+    color: rgb(7, 38, 49);
+    margin-bottom: 4rem;
+  }
+
+  img {
+    border-radius: 3%;
+  }
+</style>
+
+<body>
+  <div class="container">
+    <div class="row">
+      <div class="col-lg-8  offset-lg-2">
+        <h1>Live Streaming</h1>
+        <img src="{{ url_for('video') }}" width="60%">
+      </div>
+    </div>
+  </div>
+</body>
 
 </html>
