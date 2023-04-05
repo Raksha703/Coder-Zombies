@@ -17,8 +17,12 @@ Connect the Detection feature directly to the site.
 
 # Dependencies
 
-Keras
-Tensorflow
-Flask
-cv2
-Nummpy
+1. Keras
+
+2. Tensorflow
+
+3. Flask
+
+4. cv2
+
+5. Nummpy
